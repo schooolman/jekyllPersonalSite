@@ -1,0 +1,213 @@
+html {
+  padding: 0; }
+
+body {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  background: repeating-linear-gradient(45deg, rgba(255, 209, 130, 0.3), rgba(255, 209, 130, 0.3) 10px, rgba(255, 255, 255, 0.3) 10px, #ffffff 20px); }
+
+.sectionOne {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 5% 0 48px 0;
+  background: #ffffff;
+  overflow: visible;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  z-index: 1;
+  transition: all 200ms linear; }
+  .sectionOne:hover .arrowAnimation:after {
+    opacity: 1;
+    bottom: -135px;
+    transition: all 200ms linear; }
+  .sectionOne:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    border-top: 30px solid black;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    bottom: -101px;
+    transition: all 200ms linear; }
+  .sectionOne:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    border-top: 30px solid #ffffff;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    bottom: -268px;
+    z-index: 1;
+    transition: all 200ms linear; }
+  .sectionOne:hover {
+    border-bottom: 4px solid lightblue;
+    border-top: 4px solid lightblue;
+    transition: all 200ms linear; }
+    .sectionOne:hover:before {
+      bottom: -266px;
+      transition: all 200ms linear; }
+    .sectionOne:hover:after {
+      border-top: 30px solid lightblue;
+      transition: all 200ms linear; }
+  .sectionOne .arrowAnimation h2 {
+    font-size: 24px; }
+  .sectionOne .arrowAnimation:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    border-top: 30px solid lightblue;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    bottom: -102px;
+    z-index: 3;
+    opacity: 0;
+    transition: all 200ms linear; }
+
+.tv {
+  width: 230px;
+  height: 165px;
+  background: red;
+  margin: -30PX 0 0 45px;
+  border-radius: 2px; }
+  .tv:after {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 140px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: -105px;
+    z-index: 2;
+    box-shadow: inset 5px 5px 15px 5px #ddd, inset -5px -5px 15px 5px #ddd; }
+  .tv:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background: #fff;
+    z-index: 5;
+    margin-left: 90px;
+    margin-top: 12px;
+    box-shadow: 0px 30px 0px -3px #fff, 0px 60px 0px -3px #fff, 0px 90px 0px -3px #fff, 0px 120px 0px -3px #fff; }
+
+.tvLegs {
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid red;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  margin: -20px 100px 0;
+  position: relative; }
+
+.sectionTwo {
+  text-align: center;
+  width: 100%;
+  padding: 5% 0 0 0;
+  height: 100%;
+  background: #ffffff;
+  overflow: visible;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  z-index: 1;
+  margin-top: 300px; }
+  .sectionTwo p {
+    font-size: 24px;
+    width: 70%;
+    margin: 10px auto;
+    display: inline-block; }
+
+.sectionThree {
+  text-align: center;
+  width: 100%;
+  padding: 5% 0;
+  height: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  z-index: 1;
+  margin-top: 300px; }
+  .sectionThree p {
+    font-size: 24px;
+    width: 70%;
+    margin: 10px auto;
+    display: inline-block; }
+  .sectionThree .airplane {
+    position: relative;
+    display: block;
+    width: 50px;
+    bottom: -200px; }
+    .sectionThree .airplane .fa-plane:before {
+      font-size: 36px;
+      color: lightblue; }
+  .sectionThree .airplaneTwo {
+    position: relative;
+    display: block;
+    width: 50px;
+    left: 400px;
+    bottom: -200px; }
+    .sectionThree .airplaneTwo .fa-plane:before {
+      font-size: 36px;
+      color: red; }
+  .sectionThree .airplaneThree {
+    position: relative;
+    display: block;
+    width: 50px;
+    left: 600px;
+    bottom: -200px; }
+    .sectionThree .airplaneThree .fa-plane:before {
+      font-size: 36px;
+      color: greenyellow; }
+
+.backButton {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid lightblue;
+  position: relative;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 10px;
+  transition: all 200ms linear; }
+  .backButton h2 {
+    background: lightblue;
+    display: block;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: 30px;
+    height: 60px;
+    line-height: 60px;
+    color: white; }
+  .backButton:hover {
+    color: black;
+    cursor: pointer; }
+    .backButton:hover h2 {
+      color: black;
+      transition: all 200ms linear; }
+    .backButton:hover .fa-bolt {
+      transition: all 200ms linear;
+      color: rgba(255, 209, 130, 0.9); }
+  .backButton .fa-bolt {
+    float: left;
+    margin-left: 25px;
+    font-size: 24px;
+    margin-top: -10px;
+    color: white;
+    transition: all 200ms linear; }
+
+.pageContainer .logoMain {
+  width: auto;
+  height: 80vh;
+  position: fixed;
+  top: 10vh;
+  right: 100px;
+  z-index: -1;
+  transition: right 100ms linear, opacity 500ms linear; }

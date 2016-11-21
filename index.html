@@ -11,7 +11,11 @@
         <!-- Place favicon.ico in the root directory -->
 
         <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="assets/main.css">
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
@@ -20,60 +24,65 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
 
-    <div class="header">
-        <img class="jacob" src="img/jacob.svg" alt="Jacob">
-        <img class="schoolman" src="img/schoolman.svg" alt="Schoolmeesters">
+      <div class="homepage-content">
 
-    </div>
+            <div class="header">
+                <img class="jacob" src="img/jacob.svg" alt="Jacob">
+                <img class="schoolman" src="img/schoolman.svg" alt="Schoolmeesters">
 
-    <div class="nav">
-
-            <div class="splitNavLeft">
-                <a href="adViews/adMain.html">
-                    <!--<img src="img/adIcon2.svg" class="leftIcon" alt="Art Direction symbol">-->
-                    <svg class="cl-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 95"><defs><style>.cl-1{fill:#ef392e;}.cl-2{fill:none;stroke:#ef392e;stroke-miterlimit:10;}</style></defs><title>Asset 2code</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cl-1" d="M109,0H4.72A5,5,0,0,0,0,5V68.42A4.6,4.6,0,0,0,4.72,73H51V88H28v7H87V88H63V73h46c2.61,0,4-2,4-4.58V5C113,2.41,111.58,0,109,0Zm1,64H4V5h96.13l.05-.15.69.56,0,0h0L97.54,9.87l-7.82-2.8L74.31,34.43l2.46,7.11L90.84,25.11l.51.47L77.18,42.18,84,44.31,107.88,25.7l-3.07-8.31,4.67-4.81.33.43.2.31Z"/><path class="cl-2" d="M3.73,14a23.54,23.54,0,0,1,9,1c5.78,2,13.86,7.91,18.53,18,4.2,10.46,10.4,20.26,21.37,21.56A24.71,24.71,0,0,0,77.18,41.42"/></g></g></svg>
-                    <h3>Art Direction</h3>
-                </a>
             </div>
 
+            <div class="nav">
 
-        <!-- Main Logo will animate on page load-->
-        <div class="mainLogo">
+                    <div class="splitNavLeft">
+                        <a href="adViews/adMain.html">
+                            <!--<img src="img/adIcon2.svg" class="leftIcon" alt="Art Direction symbol">-->
+                            <svg class="cl-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 95"><defs><style>.cl-1{fill:#ef392e;}.cl-2{fill:none;stroke:#ef392e;stroke-miterlimit:10;}</style></defs><title>Asset 2code</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cl-1" d="M109,0H4.72A5,5,0,0,0,0,5V68.42A4.6,4.6,0,0,0,4.72,73H51V88H28v7H87V88H63V73h46c2.61,0,4-2,4-4.58V5C113,2.41,111.58,0,109,0Zm1,64H4V5h96.13l.05-.15.69.56,0,0h0L97.54,9.87l-7.82-2.8L74.31,34.43l2.46,7.11L90.84,25.11l.51.47L77.18,42.18,84,44.31,107.88,25.7l-3.07-8.31,4.67-4.81.33.43.2.31Z"/><path class="cl-2" d="M3.73,14a23.54,23.54,0,0,1,9,1c5.78,2,13.86,7.91,18.53,18,4.2,10.46,10.4,20.26,21.37,21.56A24.71,24.71,0,0,0,77.18,41.42"/></g></g></svg>
+                            <h3>Art Direction</h3>
+                        </a>
+                    </div>
 
-            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.46 277.65"><defs><style>.cls-1{fill:#ef392e;}.cls-2{fill:#faed2d;}.cls-3{fill:#4ec9f5;}.cls-4{fill:#00ad5f;}.cls-5{fill:#f78d28;}</style></defs><title>Logo</title>
-            <polygon class="cls-1" points="0 122.11 4.88 23.68 68.54 0 60.21 99.35 0 122.11"/><polygon class="cls-2" points="91 75.55 29 99.05 15.33 200.39 67 180.89 91 75.55"/><polygon class="cls-3" points="38.98 180.18 101.46 156.33 35.55 277.65 38.98 180.18"/><polygon class="cls-4" points="67 180.89 69.85 168.09 38.82 180.01 38.62 191.6 67 179.89"/><polygon class="cls-5" points="61.26 86.83 60.21 99.35 27.28 111.8 29 99.05 61.26 86.83"/>
-        </svg>
 
-        </div>
+                <!-- Main Logo will animate on page load-->
+                <div class="mainLogo">
+
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.46 277.65"><defs><style>.cls-1{fill:#ef392e;}.cls-2{fill:#faed2d;}.cls-3{fill:#4ec9f5;}.cls-4{fill:#00ad5f;}.cls-5{fill:#f78d28;}</style></defs><title>Logo</title>
+                    <polygon class="cls-1" points="0 122.11 4.88 23.68 68.54 0 60.21 99.35 0 122.11"/><polygon class="cls-2" points="91 75.55 29 99.05 15.33 200.39 67 180.89 91 75.55"/><polygon class="cls-3" points="38.98 180.18 101.46 156.33 35.55 277.65 38.98 180.18"/><polygon class="cls-4" points="67 180.89 69.85 168.09 38.82 180.01 38.62 191.6 67 179.89"/><polygon class="cls-5" points="61.26 86.83 60.21 99.35 27.28 111.8 29 99.05 61.26 86.83"/>
+                </svg>
+
+                </div>
 
 
-        <div class="splitNavRight">
-            <a href="devViews/devMain.html">
+                <div class="splitNavRight">
+                    <a href="devViews/devMain.html">
 
-                <img class="code" src="img/1code.svg" alt="Symbol - </>">
-                <h3>Development</h3>
+                        <img class="code" src="img/1code.svg" alt="Symbol - </>">
+                        <h3>Development</h3>
 
-            </a>
+                    </a>
 
-        </div>
-    </div>
+                </div>
+            </div>
 
-    <div class="bottomNav">
-        <a href="resume/resume.html">
-            <h3>Resume</h3>
-        </a>
+            <div class="bottomNav">
+                <a href="resume/resume.html">
+                    <h3>Resume</h3>
+                </a>
 
-        <a href="about/about.html">
-            <h3>About</h3>
-        </a>
+                <a href="about/about.html">
+                    <h3>About</h3>
+                </a>
 
-        <h3>Contact</h3>
+                <h3>Contact</h3>
 
-    </div>
+            </div>
+
+      </div>
+
 
 
 
