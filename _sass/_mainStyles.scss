@@ -2,7 +2,7 @@ html {
     padding: 0; //Clearing and reseting styling.
 }
 
-body{
+body:not(.home){
     padding: 0;
     width: 100%;
     margin: 0;
