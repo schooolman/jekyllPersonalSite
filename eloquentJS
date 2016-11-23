@@ -25,4 +25,29 @@ Binary 00001101, or 8+4+1, which equals 13.
 
 There are six different types of values in JS: numbers, strings, Booleans, objects, functions, and undefined values.
 
+--- To create a value, all that must occur is that you invoke it's name.
 
+--- Javascript uses a fixed number of bits, naely 64 of them to store a single number value.
+
+--- Within JS you can represent 2^64 different numbers, wihc is about 18 quintillion,
+
+ (18,000,000,000,000,000,000)
+
++ and *, - and /,  symbols are called operators
+
+When operators appera together without parentheses, the order which they are applied is determined by the precdence of the operators.
+
+% is one arithmetic operator that is not typical. It is used to represent the remainder operation.
+----314 % 100 produces 14.
+---------- This is often referred to as the modulo
+
+----------------------->>> MODULO!! :D
+
+------SPECIAL NUMBERS
+
+--- Infinity and -Infinity  which represent the positive and negative infinities.
+------ THIS IS NOT MATHEMATICALLY SOLID
+
+NaN stands for "Not a Number"
+
+	
