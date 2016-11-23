@@ -15,4 +15,14 @@ Javascript is used in more than just web browsers, it is currently being used as
 
 ----------------------------------------PART ONE----------------------
 
-Values Typesp and Operators
+Values Types and Operators
+
+"Inside the computer's world, there is only data."
+
+Any piece of discrete information can be reduced to a sequence of zeros and ones and thus represented in bits.
+
+Binary 00001101, or 8+4+1, which equals 13.
+
+There are six different types of values in JS: numbers, strings, Booleans, objects, functions, and undefined values.
+
+
