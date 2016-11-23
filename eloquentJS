@@ -5,3 +5,14 @@ Chapter One
 Founded in 1995 and has no relation to the Java language
 
 Ecmascript === Javascript && Javascript === ECMAscript
+
+Javascript was introduced in 1995 with Netscape Navigator as a way to add programs to web pages.
+
+Javascript is used in more than just web browsers, it is currently being used as a scripting language and querying language for databases and as an intermediary as well.
+     - i.e. Node, MongoDB, CouchDB, etc.
+
+//------------------------
+
+----------------------------------------PART ONE----------------------
+
+Values Typesp and Operators
