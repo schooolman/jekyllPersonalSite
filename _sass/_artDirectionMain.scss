@@ -1,0 +1,15 @@
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  height: 1000px;
+
+  .content-tile {
+    width: 300px;
+    height: 300px;
+    background: lightblue;
+    margin: 10px;
+  }
+
+}
