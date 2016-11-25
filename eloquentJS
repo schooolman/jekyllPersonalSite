@@ -71,5 +71,8 @@ The only value in JavaScript that is not equal to itself is NaN(Not a Number)
 The || operator is technically equivalent to "or"
  --- if both are true than the operation runs.
 
+Moving this file to a different location, starting a separate folder that will be dedicated to work from the eloquent javascript book.
+
+
 
 	
