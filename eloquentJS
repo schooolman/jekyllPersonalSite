@@ -50,4 +50,26 @@ When operators appera together without parentheses, the order which they are app
 
 NaN stands for "Not a Number"
 
+when a \ is contained within a string it is actually telling the code that it is escaping that string, and the next character will have a special meaning.
+
+--- if an n follows the back slash then that is indicating a new line.
+
+--- Strings cannot be divided, multiplied, or subtracted but the + operator works to concatenate.
+
+Not all operators are symbols, but some can be written out as words. Such as typeof
+--- this produces a string value naming the type of the value you give it.
+---operators that take two values are called binary operators. while operators like typeof are considered unary operators since they only take one value.
+
+Booleans are only two options
+Yes or No
+True or False
+On or Off
+- use comparisons to produce booleans
+
+The only value in JavaScript that is not equal to itself is NaN(Not a Number)
+
+The || operator is technically equivalent to "or"
+ --- if both are true than the operation runs.
+
+
 	
