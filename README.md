@@ -3,6 +3,6 @@ New Personal jekyll site
 
 Moving over my personal portfolio to a jekyll based static site. 
 
-Have a very busy night tonight, so taking the time now to think about my intentions tomorrow to get all pages linked up and add in new content. 
+This is a current work in progress as I learn more about Jekyll and Static Based sites I will continue to build out my portfolio.
 
-WIll also begin working through eloquent javascript book. 
+Projected to have this completed and hosted by the end of January 2017.
